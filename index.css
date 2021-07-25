@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("p.gif");
+    height: 100vh;
+    font-family: Bold;
+    width: 24rem;
+
+height: 28rem;
+
+box-shadow: 10px 10px 15px rgb(179, 255, 0);
+
+position: relative;
+
+margin: 6% auto;
+
+border-radius: 3rem;
+
+font-weight: bolder;
+
+background-color: none;
+
+padding: 8px;
+
+color: rgb(12, 10, 10);
+
+text-align: center;
+
+}
+
+.main-container{
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    padding: 40px;
+    /* height: 200px; */
+    /* width: 600px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.heading{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    /* height: 200px;
+    width: 600px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#name-box{
+    margin-top: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    margin-bottom: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+#smt-btn{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    transition: all 0.5s ease-out;
+}
+
+#smt-btn:hover{
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    
+} 
